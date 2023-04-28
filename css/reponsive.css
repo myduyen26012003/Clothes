@@ -1,0 +1,5 @@
+@media(max-width: 1000px) {
+    li {
+        line-height: calc(100% + 15px) !important;
+    }
+  }
