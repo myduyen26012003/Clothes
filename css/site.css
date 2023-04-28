@@ -5,7 +5,9 @@
 }
 html {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
 }
+
 #slider{
     display: flex;
     position: relative;
@@ -62,7 +64,8 @@ html {
     background-color: #ccc;
 }
 .card-SP{
-    width: 190px;
+    min-width: 190px;
+    max-width: 190px;
     height: 280px;
     display: inline-block;
     border: 1px solid black;
@@ -86,21 +89,23 @@ html {
 }
 #SP-noiBat{
     display: flex;
+    
     overflow-y: scroll;
     padding: 25px;
     gap: 12px;
-    margin-left: 0 0 0 0;
-    /* thiếu màu backgroud */
+       /* thiếu màu backgroud */
     background-color: #2a00ffdb;
 }
 #SP-noiBat::-webkit-scrollbar{
     display: none;
 }
 #GT-SP{
-
+    position: relative;
+    margin: 20px 0;
 }
 #GT-SP h3{
     text-align: center;
+    display: block;
 }
 #GTSP-left{
     display: block;
@@ -108,7 +113,7 @@ html {
     height: 50px;
     border-radius: 40%;
     background-color: #fff;
-
+    position: absolute;
     top: calc(50% - 14px);
 }
 #GTSP-right{
@@ -117,7 +122,7 @@ html {
     height: 50px;
     border-radius: 40%;
     background-color: #fff;
-
+    position: absolute;
     top: calc(50% - 14px);
     right: 0;
 }
