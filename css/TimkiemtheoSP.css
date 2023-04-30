@@ -48,7 +48,7 @@ body{
 #body{
     display: flex;
     padding: 10%;
-    padding-right: 5%;
+    padding-right: 0;
 }
 #Boloctimkiem{
     flex: 2;
@@ -70,5 +70,23 @@ body{
     background-color: #000;
     color: #fff;
     height: 35px;
-
+}
+#Sapxep{
+    width: 100%;
+    background-color: #ededed;
+    margin: 20px 0 ;
+    display: flex;
+    align-items: center; 
+    padding: 0 20px;
+}
+#Sapxep p{
+    display: inline-block;
+    margin: 0;
+}
+#Sapxep button{
+    padding: 0 10px;
+    height: 40px;
+}
+#Sapxep button:hover{
+    background-color: rgb(123, 107, 107);
 }
