@@ -34,14 +34,25 @@ html {
     width: 100%;
     height: 75px;
 }
+.navbar{
+    list-style-type: none;
+    padding: 0 !important;
+    height: 75px;
+    margin: 0;
+}
 #header .navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+#header .navbar li {
     width: 120px;
     margin: 0 10px;
     font-size: 23px;
     line-height: 74.55px;
     color: #fff;
-    text-decoration: none;
+    position: relative;
     text-align: center;
+    cursor: pointer;
 }
 #header .logo {
     display: inline-block;
@@ -51,10 +62,10 @@ html {
     width: 100%;
     height: 100%;
 }
-#header .navbar a:hover {
+#header .navbar a:hover,#header .navbar li:hover {
     color: var(--main-color);
 }
-#header .navbar a:hover>div{
+#header .navbar li:hover>div{
     display: block;
 }
 #header .icon div {
@@ -86,6 +97,8 @@ html {
     color: #fff;
     position: relative;
     background-color: #000;
+    width: 100% !important;
+    margin: 0 !important;
 }
 .sub-nav-lv2{
     display: none;

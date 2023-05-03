@@ -53,6 +53,8 @@ body{
 #Boloctimkiem{
     flex: 2;
     padding: 10px;
+    padding-top: 30px;
+    width: 25%;
 }
 #DanhSach_SP{
     flex: 8;

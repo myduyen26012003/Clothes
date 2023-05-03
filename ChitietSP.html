@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="./css/ChitietSP.css">
+    <link rel="stylesheet" href="./css/layout.css">
+
+</head>
+<body>
+    <header id="header-layout2">
+        <img src="./icon/arrow-left-solid.svg" alt="" id="history-back" onclick="backHistory()">
+        <h3>Chi tiết sản phẩm</h3>
+    </header>
+    <div id="Thongtin-embrace-SP">
+        <div id="img-SP" style="border: 1px solid black;">
+            <img src="./img/test.png" alt="">
+        </div>
+        <div id="thongtin">
+            <h3>tên sản phẩm</h3>
+            <div id="danhgia">
+            <p>đánh giá: </p>
+            <svg enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0" class="star"><polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon></svg>
+            <svg enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0" class="star"><polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon></svg>
+            <svg enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0" class="star"><polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon></svg>
+            <svg enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0" class="star"><polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon></svg>
+            <svg enable-background="new 0 0 15 15" viewBox="0 0 15 15" x="0" y="0" class="star"><polygon points="7.5 .8 9.7 5.4 14.5 5.9 10.7 9.1 11.8 14.2 7.5 11.6 3.2 14.2 4.3 9.1 .5 5.9 5.3 5.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"></polygon></svg>
+            </div>
+            <p class="gia-SP">giá: 999,999vnđ</p>
+            <div id="size">
+                <p class="note">size</p>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+            </div>
+            <div id="SoLuong">
+                <p class="note">số lượng</p>
+                <button id="giam" onclick="funtiongiam()">-</button>
+                <div id="SL">1</div>
+                <button id="tang" onclick="funtiontang()">+</button>
+            </div>
+
+            <div id="buy">
+                <button>
+                    <img src="./icon/cart-plus-solid.svg" alt="">
+                    <span>Thêm vào giỏ hàng</span>
+                </button>
+                <button id="mua-ngay">
+                    Mua ngay
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="thongtin-SP-detail">
+        <h1>Chi tiết sản phẩm</h1>
+        <div class="detail">
+            <p class="title">Danh mục</p>
+            <spam class="info">Áo</spam>
+        </div>
+        <div class="detail">
+            <p class="title">Thương hiệu</p>
+            <spam class="info">Thương hiệu</spam>
+        </div>
+        <div class="detail">
+            <p class="title">Xuất sứ</p>
+            <spam class="info">Việt Nam</spam>
+        </div>
+        <div class="detail">
+            <p class="title">Chiều dài tay áo</p>
+            <spam class="info">3/4</spam>
+        </div>
+        <div class="detail">
+            <p class="title">Chiều dài cổ áo</p>
+            <spam class="info">Dài</spam>
+        </div>
+        <div class="detail">
+            <p class="title">Chất liệu</p>
+            <spam class="info">Cotton</spam>
+        </div>
+        <div class="detail">
+            <p class="title">Số lượng tồn kho</p>
+            <spam class="info">99</spam>
+        </div>
+    </div>
+
+
+    <footer id="footer">
+        <!-- code footer -->
+        <div class="box">
+            <div class="logo">
+                <img src="https://icolor.vn/wp-content/uploads/2021/03/m%E1%BA%ABu-logo-%C4%91en-tr%E1%BA%AFng-%C4%91%E1%BA%B9p-icolor-phanblogs-14.jpg"
+                    alt="">
+                <p>Cảm ơn các bạn đã đồng hành cùng chúng tôi<br>
+                    Chúng tôi ccam kết sẽ đem đến cho các bạn những trải nghiệm tốt nhất
+                </p>
+            </div>
+
+        </div>
+        <div class="box">
+            <h3>
+                Địa chỉ
+            </h3>
+            <ul class="quick-menu">
+                <div class="item">
+                    <p> Số 20 Nam Kì Khỏi Nghĩa, Mỹ Tho_Tiền Giang</p>
+                    <p> Số 62 Hùng Vương, Mỹ Tho_Tiền GIang</p>
+                    <p> Số 26 Trần Hưng Đạo, TP.Bến Tre</p>
+                </div>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h3>Liên hệ</h3>
+            Điên thoại<br>
+            0964189460
+            <br>
+            Email:duyen021101017@tgu.edu.vn
+
+
+        </div>
+    </footer>
+
+    <script src="./js/ChitietSP.js"></script>
+</body>
+</html>
