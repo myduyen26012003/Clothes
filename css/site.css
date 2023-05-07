@@ -17,7 +17,7 @@ html {
 }
 .height-25{
     display: block;
-    
+    height: 500px;
 }
 /* #slider-listLoaiSP{
     flex: 2;
