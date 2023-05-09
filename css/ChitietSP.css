@@ -128,3 +128,9 @@ body{
     width: 150px;
     color: #ccc;
 }
+input[radio]:checked {
+    background-color: blue;
+}
+svg.bi-star-fill {
+    color: goldenrod;
+}
