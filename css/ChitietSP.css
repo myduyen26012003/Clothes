@@ -134,3 +134,7 @@ input[radio]:checked {
 svg.bi-star-fill {
     color: goldenrod;
 }
+input.rad {
+    width: 16px;
+    margin-right: 5px;
+}
